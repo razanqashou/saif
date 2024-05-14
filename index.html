@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  />
+</head>
+<body>
+    <header>
+        <!-- MENU ICON -->
+  
+        <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+        <!-- logo -->
+        <a href="" class="logo">logo</a>
+        <!-- nav -->
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#book">book</a>
+          <a href="#packages">packages</a>
+          <a href="#services">services</a>
+          <a href="#gallary">gallary</a>
+          <a href="#review">review</a>
+          <a href="#contact">contact</a>
+        </nav>
+        
+        <div class="icon">
+         
+          <i class="fas fa-user" onclick="showform()"></i>
+        </div>
+       
+     
+      </header>
+      
+      <!-- login-form -->
+  
+      <div class="login-form">
+        <!-- X ICON -->
+        <i class="fas fa-times" id="form-close" onclick="hideform()"></i>
+        <form action="">
+          <h3>login</h3>
+          <input type="email" class="box" placeholder="Enter your email" />
+          <input type="password" class="box" placeholder="Enter your password" />
+          <input type="submit" value="login now" class="btn" />
+          <input type="checkbox" id="remember" />
+          <label for="remmember"> remember me</label>
+          <p>forget password? <a href="">click here</a></p>
+          <p>don't have acount? <a href="">sign up</a></p>
+        </form>
+       
+      </div>
+      <script src="main.ts"></script>
+</body>
+</html>
